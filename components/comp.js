@@ -1,26 +1,51 @@
-import { View,text} from "react-native-web"
-export default function comp(){
+import { View,Text} from "react-native"
+
+export default function Comp(){
     return(
         <View>
-            <text>
+            <Text>
                 Innocent component 
-            </text>
+            </Text>
         </View>
     )
 }
-    export function comp1(props){
+    export function Comp1(props){
         console.log(props.name); 
         return(
             <View>
-                <text> Innocent second component</text>
+                <Text> Innocent second component</Text>
             </View>
         )
     }
-export function comp2(name,age,setName){
+export function Comp2({name,age,setName}){
     return(
-        <view>
-            <text> Innocent third component </text>
-        </view>
+        <View>
+            <Text> Innocent third component </Text>
+        </View>
     )
-}
-    
+    }
+    export function Zara({zara}){
+        return(
+            <View>
+        
+                <Text>Zara</Text>
+            </View>
+        )
+        }
+        export function Zaraisanappdeveloper(){
+            return(
+                <View>
+            
+                    <Text>Zaraisanappdeveloper</Text>
+                </View>
+            )
+            }
+        
+        export function Zaraisanappdevelopeur(){
+            return(
+                <View>
+            
+                    <Text>Zaraisanappdeveloper</Text>
+                </View>
+            )
+            }

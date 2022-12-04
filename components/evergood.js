@@ -1,52 +1,52 @@
-import { View,text} from "react-native"
-export default function comp({props}){
+import { View,Text} from "react-native"
+export default function Comp({props}){
     return(
         <View>
-            <text> Tobechukwu component </text>
+            <Text> Tobechukwu component </Text>
         </View>
     )
 
 
 }
-export function comp1({name,setName}){
+export function Comp1({name,setName}){
     return(
         <View>
-            <text> Tobechukwu first component </text>
+            <Text> Tobechukwu first component </Text>
         </View>
     )
 }
-export function comp2({age,setAge}){
+export function Comp2({age,setAge}){
     return(
-        <view>
-            <text> Tobechukwu second component</text>
-        </view>
+        <View>
+            <Text> Tobechukwu second component</Text>
+        </View>
     )
 }
 export function Comp3({status,setstatus}){
     return(
         <View>
-            <text> Tobechukwu third component </text>
+            <Text> Tobechukwu third component </Text>
         </View>
     )
 }
 export function Comp4({place,setplace}){
 return(
-    <view>
-        <text> Tobechukwu fourth component </text>
-    </view>
+    <View>
+        <Text> Tobechukwu fourth component </Text>
+    </View>
 )
 }
 export function Comp5({school,setschool}){
     return(
-        <view>
-            <text> Tobechukwu fifth component </text>
-        </view>
+        <View>
+            <Text> Tobechukwu fifth component </Text>
+        </View>
     )
 }
 export function Comp6({church,setchurch}){
     return(
-        <view>
-            <text> Tobechukwu sixth component </text>
-        </view>
+        <View>
+            <Text> Tobechukwu sixth component </Text>
+        </View>
     )
 }
